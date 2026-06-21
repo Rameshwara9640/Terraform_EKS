@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "demo-eks-statefile-s3-jerneybucket"
+  bucket = "demo-eks-statefile-s3-jerney-bucket"
 
   lifecycle {
     prevent_destroy = false
